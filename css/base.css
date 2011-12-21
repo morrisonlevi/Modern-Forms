@@ -1,0 +1,50 @@
+html {
+	font:81.25% arial, helvetica, sans-serif;
+}
+body {
+	max-width:402px;
+	margin:0 auto;
+}
+body > p:last-child {
+	font-style:italic;
+	margin:30em 0;
+}
+.ui-form button[type='submit'] {
+	margin-top:.5em;
+}
+
+.ui-form {
+	margin:1em 0;
+}
+.ui-form > fieldset > legend {
+	font-size:1.2em;
+}
+
+h1, h2, strong {
+	font-weight:bold;
+}
+h1 {
+	font-size:1.6em;
+}
+h2 {
+	font-size:1.4em;
+}
+
+p {
+	padding:.3em 0;
+}
+h1 + p {
+	font-style:italic;
+	color:rgba(0,0,0,.66)
+}
+article {
+	line-height:1.5;
+}
+dl dd {
+	padding-left:3em;
+}
+
+code {
+	font-family: monospace;
+	border-bottom:1px dotted rgba(0,0,0,.33);
+}
