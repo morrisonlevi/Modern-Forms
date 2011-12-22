@@ -53,7 +53,7 @@
 .ui-form textarea,
 .ui-form button {
 	font-size:1em;
-	padding:.33em .66em;
+	padding:.33em .5em;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
@@ -311,7 +311,7 @@
 
 .ui-form label.error,
 .error.required::after {
-	color:#DD4B39;
+    color:#c44333;
 }
 .ui-form input[type=email].error,
 .ui-form input[type=number].error,
