@@ -301,9 +301,6 @@
 	-webkit-border-radius: 1em;
 	-moz-border-radius: 1em;
 	border-radius: 1em;
-	width: 1em;
-	height: 1em;
-	padding:0;
 }
 .required::after {
 	content:' (required)';
