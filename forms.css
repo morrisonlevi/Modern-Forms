@@ -36,6 +36,7 @@
 
 .ui-form label,
 .ui-form input[type=email],
+.ui-form input[type=tel],
 .ui-form input[type=number],
 .ui-form input[type=password],
 .ui-form input[type=text],
@@ -59,6 +60,7 @@
 	box-sizing:border-box;
 }
 .ui-form input[type=email],
+.ui-form input[type=tel],
 .ui-form input[type=number],
 .ui-form input[type=password],
 .ui-form input[type=text],
@@ -69,6 +71,7 @@
 	border-top: 1px solid #c0c0c0;
 }
 .ui-form input[type=email]:hover,
+.ui-form input[type=tel]:hover,
 .ui-form input[type=number]:hover,
 .ui-form input[type=password]:hover,
 .ui-form input[type=text]:hover,
@@ -81,6 +84,7 @@
 	box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 }
 .ui-form input[type=email]:focus,
+.ui-form input[type=tel]:focus,
 .ui-form input[type=number]:focus,
 .ui-form input[type=password]:focus,
 .ui-form input[type=text]:focus,
