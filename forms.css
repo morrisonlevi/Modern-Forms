@@ -318,6 +318,7 @@
     color:#c44333;
 }
 .ui-form input[type=email].error,
+.ui-form input[type=tel].error,
 .ui-form input[type=number].error,
 .ui-form input[type=password].error,
 .ui-form input[type=text].error,
