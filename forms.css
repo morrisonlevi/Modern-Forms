@@ -129,7 +129,7 @@
 	background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
 	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
 	
-	cursor: default;
+	cursor: pointer;
 }
 .ui-form button::-moz-focus-inner { 
 	border: 0;
