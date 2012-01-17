@@ -323,7 +323,14 @@
 .ui-form input[type=password].error,
 .ui-form input[type=text].error,
 .ui-form input[type=url].error,
-.ui-form textarea.error {
+.ui-form textarea.error,
+.ui-form input[type=email]:invalid,
+.ui-form input[type=tel]:invalid,
+.ui-form input[type=number]:invalid,
+.ui-form input[type=password]:invalid,
+.ui-form input[type=text]:invalid,
+.ui-form input[type=url]:invalid,
+.ui-form textarea:invalid {
 	border-color:#DD4B39;
-	border-top-color:#b83e2f
+	border-top-color:#b83e2f;
 }
