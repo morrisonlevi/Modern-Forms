@@ -92,7 +92,7 @@
 .ui-form input[type=url]:focus,
 .ui-form textarea:focus {
     outline: none;
-    border: 1px solid #32c1d4;
+    border: 1px solid #0095cd;
     -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
     -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
@@ -198,24 +198,25 @@
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
 }
 .ui-form .blue {
-    border: 1px solid #21808C;
-    background-color: #32c1d4;
-    background-image: -webkit-linear-gradient(top, #32c1d4 0%,#2daebf 100%);
-    background-image: -moz-linear-gradient(top, #32c1d4 0%, #2daebf 100%);
-    background-image: -ms-linear-gradient(top, #32c1d4 0%,#2daebf 100%);
-    background-image: -o-linear-gradient(top, #32c1d4 0%,#2daebf 100%);
-    background-image: linear-gradient(top, #32c1d4 0%,#2daebf 100%);
+    border-color: #0079A6;
+
+    background-color: #0095cd;
+    background-image: -webkit-linear-gradient(top, #0095cd 0%,#008bbf 100%);
+    background-image: -moz-linear-gradient(top, #0095cd 0%, #008bbf 100%);
+    background-image: -ms-linear-gradient(top, #0095cd 0%,#008bbf 100%);
+    background-image: -o-linear-gradient(top, #0095cd 0%,#008bbf 100%);
+    background-image: linear-gradient(top, #0095cd 0%,#008bbf 100%);
 }
 .ui-form .blue:hover,
 .ui-form .blue:active {
-    border: 1px solid #1E757F;
+    border-color: #007099;
 
-    background-color: #32c1d4;
-    background-image: -webkit-linear-gradient(top, #32c1d4 0%,#2AA3B2 100%);
-    background-image: -moz-linear-gradient(top, #32c1d4 0%, #2AA3B2 100%);
-    background-image: -ms-linear-gradient(top, #32c1d4 0%,#2AA3B2 100%);
-    background-image: -o-linear-gradient(top, #32c1d4 0%,#2AA3B2 100%);
-    background-image: linear-gradient(top, #32c1d4 0%,#2AA3B2 100%);
+    background-color: #0095cd;
+    background-image: -webkit-linear-gradient(top, #0095cd 0%,#0080b0 100%);
+    background-image: -moz-linear-gradient(top, #0095cd 0%, #0080b0 100%);
+    background-image: -ms-linear-gradient(top, #0095cd 0%,#0080b0 100%);
+    background-image: -o-linear-gradient(top, #0095cd 0%,#0080b0 100%);
+    background-image: linear-gradient(top, #0095cd 0%,#0080b0 100%);
 }
 .ui-form .red {
     border-color:#B02600;
