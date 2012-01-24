@@ -1,38 +1,38 @@
 /* 
     Document   : forms.css
-	Version	   : 1.0
+        Version	   : 1.0
     Created on : Dec 21, 2011
     Author     : Levi Morrison <morrison.levi@gmail.com>
-	License	   : none (public domain)
+        License	   : none (public domain)
     Description:
         This stylesheet hopes to provide attractive and consistent styles for
-		form elements in modern browsers.
+                form elements in modern browsers.
 */
 
 .ui-form {
-	display:block;
-	max-width: 400px;
-	background:#f5f5f5;
-	border:1px solid #e5e5e5
+    display:block;
+    max-width: 400px;
+    background:#f5f5f5;
+    border:1px solid #e5e5e5
 }
 
 .ui-form label[for],
 .ui-form legend {
-	padding:.33em 0;
-	font-weight: bold;
+    padding:.33em 0;
+    font-weight: bold;
 }
 
 .ui-form fieldset legend {
-	padding-top:.66em;
+    padding-top:.66em;
     font-size:1.33em;
 }
 
 .ui-form label {
-	padding:.33em 0;
+    padding:.33em 0;
 }
 
 .ui-form > fieldset {
-	padding:1em;
+    padding:1em;
 }
 
 .ui-form label,
@@ -46,19 +46,19 @@
 .ui-form textarea, 
 .ui-form legend,
 .ui-form button {
-	display:block;
-	width:100%;
-	margin:0 auto;
+    display:block;
+    width:100%;
+    margin:0 auto;
 }
 .ui-form input,
 .ui-form select,
 .ui-form textarea,
 .ui-form button {
-	font-size:1em;
-	padding:.33em .5em;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
+    font-size:1em;
+    padding:.33em .5em;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
 }
 .ui-form input[type=email],
 .ui-form input[type=tel],
@@ -67,9 +67,9 @@
 .ui-form input[type=text],
 .ui-form input[type=url],
 .ui-form textarea {
-	background: #fff;
-	border: 1px solid #d9d9d9;
-	border-top: 1px solid #c0c0c0;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
 }
 .ui-form input[type=email]:hover,
 .ui-form input[type=tel]:hover,
@@ -78,11 +78,11 @@
 .ui-form input[type=text]:hover,
 .ui-form input[type=url]:hover,
 .ui-form textarea:hover {
-	border: 1px solid #b9b9b9;
-	border-top: 1px solid #a0a0a0;
-	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-	box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 }
 .ui-form input[type=email]:focus,
 .ui-form input[type=tel]:focus,
@@ -91,114 +91,114 @@
 .ui-form input[type=text]:focus,
 .ui-form input[type=url]:focus,
 .ui-form textarea:focus {
-	outline: none;
-	border: 1px solid #32c1d4;
-	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-	box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    outline: none;
+    border: 1px solid #32c1d4;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
 }
 
 .ui-form select:hover,
 .ui-form select:focus,
 .ui-form select:active {
-	outline-color:#4d90fe;
-	-moz-box-shadow:0 0 2px #4d90fe;
+    outline-color:#4d90fe;
+    -moz-box-shadow:0 0 2px #4d90fe;
 }
 
 .ui-form button {
-	min-width: 46px;
-	text-align: center;
-	font-weight: bold;
-	font-size:1em;
-	
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	
-	-webkit-transition: all 0.218s;
-	-moz-transition: all 0.218s;
-	-ms-transition: all 0.218s;
-	-o-transition: all 0.218s;
-	transition: all 0.218s;
-	
-	border: 1px solid rgba(0,0,0,0.1);
-	
-	background-color: #f5f5f5;
-	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
-	background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
-	background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
-	background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
-	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
-	
-	cursor: pointer;
+    min-width: 46px;
+    text-align: center;
+    font-weight: bold;
+    font-size:1em;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -ms-transition: all 0.218s;
+    -o-transition: all 0.218s;
+    transition: all 0.218s;
+
+    border: 1px solid rgba(0,0,0,0.1);
+
+    background-color: #f5f5f5;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+
+    cursor: pointer;
 }
 .ui-form button::-moz-focus-inner { 
-	border: 0;
-	padding: 0;
+    border: 0;
+    padding: 0;
 }
 
 .ui-form button:hover {
-	border: 1px solid #c6c6c6;
-	color: #333;
-	
-	-webkit-transition: all 0.0s;
-	-moz-transition: all 0.0s;
-	-ms-transition: all 0.0s;
-	-o-transition: all 0.0s;
-	transition: all 0.0s;
-	
-	background-color: #f8f8f8;
-	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
-	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
-	background-image: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
-	background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
-	background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
-	
-	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color: #333;
+
+    -webkit-transition: all 0.0s;
+    -moz-transition: all 0.0s;
+    -ms-transition: all 0.0s;
+    -o-transition: all 0.0s;
+    transition: all 0.0s;
+
+    background-color: #f8f8f8;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 .ui-form button:focus {
-	outline:0;
-	-webkit-box-shadow: inset 0 0 0 1px #fff, 0 0 2px rgba(0,0,0,.75);
-	-moz-box-shadow: inset 0 0 0 1px #fff, 0 0 2px rgba(0,0,0,.75);
-	box-shadow: inset 0 0 0 1px #fff, 0 0 2px rgba(0,0,0,.75);
+    outline:0;
+    -webkit-box-shadow: inset 0 0 0 1px #fff, 0 0 2px rgba(0,0,0,.75);
+    -moz-box-shadow: inset 0 0 0 1px #fff, 0 0 2px rgba(0,0,0,.75);
+    box-shadow: inset 0 0 0 1px #fff, 0 0 2px rgba(0,0,0,.75);
 }
 .ui-form button:active {
-	background-color: #f6f6f6;
-	background-image: -webkit-linear-gradient(top,#f6f6f6,#f1f1f1);
-	background-image: -moz-linear-gradient(top,#f6f6f6,#f1f1f1);
-	background-image: -ms-linear-gradient(top,#f6f6f6,#f1f1f1);
-	background-image: -o-linear-gradient(top,#f6f6f6,#f1f1f1);
-	background-image: linear-gradient(top,#f6f6f6,#f1f1f1);
-	
-	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-	box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-	
-	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-	box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    background-color: #f6f6f6;
+    background-image: -webkit-linear-gradient(top,#f6f6f6,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f6f6f6,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f6f6f6,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f6f6f6,#f1f1f1);
+    background-image: linear-gradient(top,#f6f6f6,#f1f1f1);
+
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
 }
 .ui-form .blue,
 .ui-form .red {
-	color: #fff;
-	text-shadow: 0 1px rgba(0,0,0,0.1);
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
 }
 .ui-form .blue:hover,
 .ui-form .red:hover {
-	color: #fff;
-	text-shadow: 0 1px rgba(0,0,0,0.3);
-	background-color: #357ae8;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-color: #357ae8;
 }
 .ui-form .blue:active,
 .ui-form .red:active {
-	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-	box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
 }
 .ui-form .blue {
-	border: 1px solid #21808C;
+    border: 1px solid #21808C;
     background-color: #32c1d4;
     background-image: -webkit-linear-gradient(top, #32c1d4 0%,#2daebf 100%);
     background-image: -moz-linear-gradient(top, #32c1d4 0%, #2daebf 100%);
@@ -208,7 +208,7 @@
 }
 .ui-form .blue:hover,
 .ui-form .blue:active {
-	border: 1px solid #1E757F;
+    border: 1px solid #1E757F;
 
     background-color: #32c1d4;
     background-image: -webkit-linear-gradient(top, #32c1d4 0%,#2AA3B2 100%);
@@ -237,75 +237,75 @@
     background-image: linear-gradient(top, #e33100 0%,#BA2800 100%);
 }
 .ui-form input[type="checkbox"]:hover {
-	border-color: #c6c6c6;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
-	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
-	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    border-color: #c6c6c6;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 }
 .ui-form input[type="checkbox"],
 .ui-form input[type="radio"] {
-	-webkit-appearance: none;
-	appearance: none;
-	width:1em;
-	height:1em;
-	margin: 0;
-	padding:0;
-	cursor: pointer;
-	vertical-align: bottom;
-	background: white;
-	border: 1px solid gainsboro;
-	-webkit-border-radius: 1px;
-	-moz-border-radius: 1px;
-	border-radius: 1px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	position: relative;
-	border-image: initial;
+    -webkit-appearance: none;
+    appearance: none;
+    width:1em;
+    height:1em;
+    margin: 0;
+    padding:0;
+    cursor: pointer;
+    vertical-align: bottom;
+    background: white;
+    border: 1px solid gainsboro;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    border-image: initial;
 }
 .ui-form input[type=checkbox]:active,
 .ui-form input[type=radio]:active {
-	border-color: #c6c6c6;
-	background: #ebebeb;
+    border-color: #c6c6c6;
+    background: #ebebeb;
 }
 .ui-form input[type=checkbox]:checked,
 .ui-form input[type=radio]:checked {
-	background: #fff;
+    background: #fff;
 }
 .ui-form input[type=radio]:checked::after {
-	content: '';
-	display: block;
-	position: relative;
-	top: 2px;
-	left: 2px;
-	width: 7px;
-	height: 7px;
-	background: rgba(0,0,0,.66);
-	-webkit-border-radius: 1em;
-	-moz-border-radius: 1em;
-	border-radius: 1em;
+    content: '';
+    display: block;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 7px;
+    height: 7px;
+    background: rgba(0,0,0,.66);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
 }
 .ui-form input[type=checkbox]:checked::after {
-	content: url('https://ssl.gstatic.com/ui/v1/menu/checkmark.png');
-	display: block;
-	position: absolute;
-	top: -6px;
-	left: -5px;
+    content: url('https://ssl.gstatic.com/ui/v1/menu/checkmark.png');
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -5px;
 }
 .ui-form input[type=checkbox]:focus {
-	outline: none;
-	border-color:#4d90fe;
+    outline: none;
+    border-color:#4d90fe;
 }
 .ui-form input[type=radio] {
-	-webkit-border-radius: 1em;
-	-moz-border-radius: 1em;
-	border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
 }
 .required::after {
-	content:' (required)';
-	color:#4d90fe;
-	font-style:italic;
-	font-size:75%;
+    content:' (required)';
+    color:#4d90fe;
+    font-style:italic;
+    font-size:75%;
 }
 
 .ui-form label.error,
@@ -326,6 +326,6 @@
 .ui-form input[type=text]:invalid,
 .ui-form input[type=url]:invalid,
 .ui-form textarea:invalid {
-	border-color:#e33100;
-	border-top-color:#C92B00;
+    border-color:#e33100;
+    border-top-color:#C92B00;
 }
