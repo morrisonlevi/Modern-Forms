@@ -326,7 +326,14 @@
 .ui-form input[type='password']:invalid,
 .ui-form input[type='text']:invalid,
 .ui-form input[type='url']:invalid,
-.ui-form textarea:invalid {
+.ui-form textarea:invalid,
+.ui-form input[type='email'][aria-invalid='true'],
+.ui-form input[type='tel'][aria-invalid='true'],
+.ui-form input[type='number'][aria-invalid='true'],
+.ui-form input[type='password'][aria-invalid='true'],
+.ui-form input[type='text'][aria-invalid='true'],
+.ui-form input[type='url'][aria-invalid='true'],
+.ui-form textarea[aria-invalid='true'] {
     border-color:#e33100;
     border-top-color:#C92B00;
 }
